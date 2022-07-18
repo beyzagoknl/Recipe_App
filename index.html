@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOODLAND</title>
+    <link rel="icon" type="image/png" href="./public/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./public/style.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="/public/images/video.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">FOODLAND</h2>
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Find Your Meals"
+              id="search-input"
+              2
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="meal-result">
+          <button type="button" class="surprise-btn" id="random">
+            Surprise Me
+          </button>
+          <div id="meal"></div>
+        </div>
+
+        <div class="meal-details">
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+
+          <div id="meal-details-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/pages/mealsPage.js"></script>
+    <script type="module" src="./src/pages/recipePage.js"></script>
+  </body>
+</html>
