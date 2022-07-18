@@ -12,7 +12,7 @@ The Recipe App uses [The MealDB API](https://www.themealdb.com/api.php) and brin
 
 ## 3. Structure Tree
 
-[Recipe_App](/public/images/appTree.jpg)
+![Recipe_App!](/public/images/appTree.jpg)
 
 ## 4. Application
 
