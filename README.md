@@ -4,7 +4,7 @@
 
 Project link is available at [RecipeApp]()
 
-![Preview of Recipe App!](Recipe_App/public/images/foodland.GIF)
+![Preview of Recipe App!](/public/images/foodland.GIF)
 
 ## 2. Description
 
@@ -12,7 +12,7 @@ The Recipe App uses [The MealDB API](https://www.themealdb.com/api.php) and brin
 
 ## 3. Structure Tree
 
-![Recipe_App!](Recipe_App/public/images/appTree.jpg)
+![Recipe_App!]/public/images/appTree.jpg)
 
 ## 4. Application
 
