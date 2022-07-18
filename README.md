@@ -10,6 +10,10 @@ Project link is available at [RecipeApp]()
 
 The Recipe App uses [The MealDB API](https://www.themealdb.com/api.php) and brings meal and its recipe.
 
+## 3. Structure Tree
+
+![Recipe_App!](/public/images/appTree.jpg)
+
 ## 3. Application
 
 - This project created by using
@@ -32,4 +36,3 @@ The Recipe App uses [The MealDB API](https://www.themealdb.com/api.php) and brin
 - A user can click on a link and watch a related YouTube video.
 
 # Recipe App
-
