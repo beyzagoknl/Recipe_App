@@ -2,7 +2,7 @@
 
 ## 1. Link and Preview
 
-Project link is available at [RecipeApp]()
+Project link is available at [RecipeApp](https://beyzagoknl.github.io/Recipe_App/index.html)
 
 ![Preview of Recipe App!](/public/images/foodland.GIF)
 
