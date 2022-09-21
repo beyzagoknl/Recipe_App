@@ -6,8 +6,8 @@ const mealList = document.getElementById("meal");
 
 const getMealList = async () => {
   let searchValue = document.getElementById("search-input");
-  let searchInputTxt = searchValue.value.trim();
-  let URL = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchInputTxt}`;
+  const searchInputTxt = searchValue.value.trim();
+  const URL = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchInputTxt}`;
   try {
     const data = await fetchData(URL);
     mealList.classList.remove("centered");
